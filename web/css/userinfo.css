@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+#footer{
+	background:#CCC;
+	padding:10px;
+	margin-top:50px;
+}
+#naviDiv {
+	background-color: #F30;
+	height: 35px;
+	margin-top:10px;
+}
+#content{
+	height: 440px;
+	width: 960px;
+	border: 1px solid RGB(249,178,0);
+	margin-left:194px;
+	margin-top:5px;
+}
+td{
+	padding:15px;
+	font-size:18px;
+	font:"微软雅黑 Light";
+}
+
+.button{
+	background:RGB(249,178,0);
+	margin-left:50px;
+	height:30px;
+	width:50px;
+	font-size:14px;
+}
+.ticketdiv{
+	margin-top:10px;
+	border: 1px solid #F60;
+	font-size:16px;
+	font-family:"华文新魏";
+	background:#999;
+}

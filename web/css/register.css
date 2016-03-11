@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+#footer{
+	background:#CCC;
+	padding:10px;
+	margin-top:30px;
+}
+#naviDiv {
+	background-color: #F30;
+	height: 35px;
+	margin-top:10px;
+}
+#content{
+	height: 500px;
+	width: 960px;
+	border: 1px solid RGB(249,178,0);
+	margin-left:194px;
+	margin-top:5px;
+	background:RGB(110,242,252);
+}

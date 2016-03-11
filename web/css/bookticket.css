@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+#row{
+	margin-left:20px;
+	float:left;
+}
+#book{
+	float:left;
+	margin-top:30px;
+	margin-left:10px;
+}
+table{
+	border: 1px solid #F60;
+}
+

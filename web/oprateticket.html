@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理员管理机票</title>
+<link rel="Stylesheet" type="text/css" href="css/administrator.css" />
+</head>
+
+<body>
+    <!-- logo头部分 -->
+    <div>
+        <img src="pic/logo.png" style="margin-left:100px"/> 
+        <img src="pic/header.png" style="margin-left:200px"  />
+    </div>
+    <!-- 导航栏-->
+    <div id="naviDiv" class="#naviDiv">
+    </div>
+    <div style="margin-left:198px;margin-top:5px">
+        <b>增加机票</b>
+    </div>
+    <!-- 主题内容框-->
+    <div id="content" class="#content">
+        <!-- 顶部颜色框-->
+        <div style="height:15px;width:764px;background:RGB(249,178,0);padding-left:196px;padding-top:20px">
+        </div>
+        <!-- 管理及机票区域-->
+        <div style="margin-top:15px;padding-left:10px">
+          <!-- 修改机票框-->
+          <table width="939">
+              <tr>
+                <td width="103">● 修改机票:</td>
+                <form action="/oprateticket.php" method="post">
+                <td colspan="2">机票号码：
+                  <input type="text" value="机票号码" name="ticketid" /><input type="submit" value="查询" class="search" /> 
+                  <font color="#FF0000" size="-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;根据机票号查询，结果以表格展示</font></td>
+                  </form>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td >&nbsp;</td>
+                <td >&nbsp;</td>
+              </tr>
+          </table>
+          </br></br></br>
+          <!-- 增加机票框-->
+          <table width="939">
+            <form action="server/addticket.php" method="post">
+              <tr>
+                <td width="103">● 增加机票:</td>
+                <td width="352">地点：<input type="text" name="fromcity" value="出发地"/><b>--></b>
+                <input type="text" name="tocity" value="到达地" /></td>
+                <td width="462">日期：<input type="date" name="fromdate" value="出发日期" /><b>--></b>
+                <input type="date" name="todate" value="到达日期" /> </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>时间：<input type="time" name="fromtime" value="出发时间" /><b>--></b>
+                <input type="time" name="totime" value="到达时间" /></td>
+                <td>机场：<input type="text" name="fromport" value="出发机场" /><b>--></b>
+                <input type="text" name="toport" value="到达机场" /></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>费用：<input type="text" name="price" value="机票价格(元)" /><b>---</b>
+                <input type="text" name="tax" value="机票税费(元)" /></td>
+                <td>中转次数：<input type="text" name="changenum" value="0" /> &nbsp;机票数目：<input type="text" name="number" value="0" /></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>经济舱：<input type="text" value="0" name="ecoclass" class="number"/> 商务舱：
+                <input type="text" name="busclass" value="0" class="number" /> 头等舱：<input type="text" name="firclass" value="0" class="number" />
+                </td>
+                <td>航空公司：<input type="text" name="aircompany" value="航空公司" /> &nbsp;
+                    是否特价：<select name="isonsale" size="1">
+                                     <option value="1">特价票
+                                     <option value="0">非特价
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="text-align:right"><input type="submit" class="submit" value="增加"  /></td>
+              </tr>
+            </form>
+          </table>
+      </div>
+    </div>
+
+    <!-- 页面底部-->
+    <div id="footer" class="#footer">
+        <center>
+            <p>关于我们 |网站声明</p>
+            <p>版权所有©2008-2015航空部信息技术中心  中国武汉大学计算机学院</p>
+            <p>鄂ICP备10009636号</p>
+        </center>
+    </div>
+</body>
+
+</html>

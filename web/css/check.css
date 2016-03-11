@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#naviDiv {
+	background-color: #F30;
+	height: 35px;
+	margin-top:10px;
+}
+
+#footer {
+	background-color: #CCC;
+	border-top-color: #06C;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+}
+#searchDiv {
+	background-color: #F93;
+	height: 300px;
+	width: 270px;
+	margin-left:177px;
+	padding-left:4px;
+	float:left;
+}
+#searchDiv #searchInnerDiv {
+	background-color: #FFF;
+	height:250px;
+	width:250px;
+	padding:8px;
+}
+#result {
+	min-height:400px;
+	width: 704px;
+	float: left;
+	margin-left: 8px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: RGB(255,192,0);
+	border-right-color: RGB(255,192,0);
+	border-bottom-color: RGB(255,192,0);
+	border-left-color: RGB(255,192,0);
+}
+#result #resultTitle {
+	width: 686px;
+	height:25px;
+	background:RGB(255,192,0);
+	padding-left:20px;
+	padding-top:7px;
+}
+
+td{
+	width:114px;
+	text-align:center;
+	font-size:14px;
+}
+tr{
+	height: 40px;
+	background:url(../pic/trbg.png);
+}
+#noticeDiv{
+	width: 988px;
+	margin-left: 177px;
+	border: 1px solid #666;
+}
+#noticeTitle{
+	width:988px;
+	background:#999;
+}
+#noticeDiv #noticeContent {
+	padding:10px;
+}
+.name{
+	background: #CCC;
+	font-style: oblique;
+	border: 1px solid #F90;
+}

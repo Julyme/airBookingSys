@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#naviDiv {
+	background-color: #F30;
+	height: 35px;
+	margin-top:10px;
+}
+
+#footer {
+	background-color: #CCC;
+	border-top-color: #06C;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+}
+#searchDiv {
+	background-color: #F93;
+	height: 300px;
+	width: 270px;
+	margin-left:177px;
+	padding-left:4px;
+	float:left;
+}
+#searchDiv #searchInnerDiv {
+	background-color: #FFF;
+	height:250px;
+	width:250px;
+	padding:8px;
+}
+#noticeDiv{
+	margin-top:100px;
+	width: 988px;
+	margin-left: 177px;
+	border: 1px solid #666;
+}
+#noticeTitle{
+	width:988px;
+	background:#999;
+}
+#noticeDiv #noticeContent {
+	padding:10px;
+}
+#result{
+	min-height:550px;
+	width: 708px;
+	float: left;
+	margin-left: 8px;
+}
+#result #aticket {
+	border: 1px solid #F90;
+	padding:5px;
+}
+table{
+	font-size:14px;
+}
+tr{
+	text-align:center;
+}
+#selectDiv{
+	width:708px;
+	height:30px;
+	background:RGB(245,245,245);
+}
+#nameDiv{
+	width:708px;
+	height:30px;
+	background:RGB(245,245,245);
+	margin-top:10px;
+	padding-top:5px;
+}

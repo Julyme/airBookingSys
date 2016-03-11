@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户注册</title>
+<link rel="Stylesheet" type="text/css" href="css/register.css" />
+<script type="text/javascript" src="js/register.js"></script>
+</head>
+
+<body>
+    <!-- logo头部分 -->
+    <div>
+        <img src="pic/logo.png" style="margin-left:100px"/> 
+        <img src="pic/header.png" style="margin-left:200px"  />
+    </div>
+    <!-- 导航栏-->
+    <div id="naviDiv" class="#naviDiv">
+    </div>
+    <div style="margin-left:198px;margin-top:5px">
+        <b>用户注册</b>
+    </div>
+    <!-- 主题内容框-->
+    <div id="content" class="#content">
+        <!-- 顶部颜色框-->
+        <div style="height:15px;width:764px;background:RGB(249,178,0);padding-left:196px;padding-top:10px">
+        </div>
+        <!-- 表单区域-->
+        <div style="margin-top:15px">
+        <center>
+        <form action="/server/register.php" method="post" >
+            <p>账户：<input type="text" id="acount" name="acount" /></p>
+            <p>密码：<input type="password" id="password" name="password" /></p>
+            <p>确认：<input type="password" id="password1" name="password1" /></p>
+            <p>姓名：<input type="text" id="name" name="name" /></p>
+            <p style="margin-left:-37px">性别：<input type="radio" name="sex" id="male" value="1" checked="checked" />男 &nbsp;&nbsp;&nbsp; <input type="radio" name="sex" value="0" id="female" />女
+            <p>地址：<input type="text" id="address" name="address" /></p>
+            <p>电话：<input type="tel" id="phone" name="phone" /></p>
+            <p>邮箱：<input type="text" id="email" name="email" /></p>
+            <p>证件：<input type="text" id="idcard" name="idcard" /></p>
+            <p><input type="checkbox" />同意<a href="#">《航班的若干准则》</a>
+            <p>&nbsp;&nbsp;<input name="submit" type="image" src="pic/register.png" onClick="return validate_form(this.form);" /></p>
+        </form>
+        </center>
+        </div>
+    </div>
+
+    <!-- 页面底部-->
+    <div id="footer" class="#footer">
+        <center>
+            <p>关于我们 |网站声明</p>
+            <p>版权所有©2008-2015航空部信息技术中心  中国武汉大学计算机学院</p>
+            <p>鄂ICP备10009636号</p>
+        </center>
+    </div>
+</body>
+
+</html>
